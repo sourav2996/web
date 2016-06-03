@@ -1,0 +1,32 @@
+{
+  "name": "eduspectrum_website",
+  "version": "1.0.0",
+  "description": "## How to Contribute - Fork Edu Spectrum's repository. - On your machine make a clone of the forked repository `git clone https://github.com/yourusername/web.git`. - On your machine create a new branch on which you will work, `git checkout -b branchname`. - Make whatever changes/modifications/additions that you want to on your new branch. - Once you're ready, submit a pull request to merge your changes into the developmene branch of the upstream repository. - To set the upstream repository run `git add remote upstream https://github.com/EduSpectrum/web.git`. - Before submitting a Pull Request pull the latest changes from upstream and make sure that your changes do not cause any conflicts. ` git fetch upstream && git merge upstream/development ` - Commit your changes using ` git add * // To add all changed files `. Alternatively do ` git add filename ` to add particular files. Once you've added the files you want to commit, do a ` git commit `. Add a relevant comment stating the purpose of the commit. - To submit a Pull Request do a `git push`. This will push commits to your forked repository. Then go to the web gui and submit a Pull Request, by choosing the appropriate branches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduSpectrum/web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduSpectrum/web/issues"
+  },
+  "homepage": "https://github.com/EduSpectrum/web#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.4",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "morgan": "~1.6.1",
+    "mysql": "^2.10.2",
+    "node-sass": "^3.7.0",
+    "sequelize": "^3.23.2",
+    "serve-favicon": "~2.3.0"
+  }
+}
